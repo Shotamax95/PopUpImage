@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fluid Image pop Up</title>
+</head>
+<body>
+
+    <div class="gallery">
+        <div class="img-container">
+            <img 
+                src="./preview/aurora_small.jpg"
+                alt="Yellowknife, Canada"
+                data-original="aurora_large.jpg"
+            />
+        </div>
+
+        <div class="img-container">
+            <img 
+                src="./preview/iceland_small.jpg"
+                alt="Iceland"
+                data-original="iceland_large.jpg"
+            />
+        </div>
+
+        <div class="img-container">
+            <img 
+                src="./preview/us_small.jpg"
+                alt="Antelope Canyon, US"
+                data-original="us_large.jpg"
+            />
+        </div>
+
+        <div class="img-container">
+            <img 
+                src="./preview/wave_small.jpg"
+                alt="Iceland"
+                data-original="wave_large.jpg"
+            />
+        </div>
+    </div>
+
+    <div class="modal">
+        <img src="./full/aurora_large.jpg" alt="" class="full-img">
+        <p class="caption"></p>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
